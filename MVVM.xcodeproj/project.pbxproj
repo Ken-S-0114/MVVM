@@ -27,6 +27,8 @@
 		B228AD2F21EF50FF00595549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B228AD2D21EF50FF00595549 /* LaunchScreen.storyboard */; };
 		B228AD3A21EF50FF00595549 /* MVVM_RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228AD3921EF50FF00595549 /* MVVM_RxTests.swift */; };
 		B228AD4521EF510000595549 /* MVVM_RxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228AD4421EF510000595549 /* MVVM_RxUITests.swift */; };
+		B228AD5121EF55B900595549 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228AD5021EF55B900595549 /* ViewModel.swift */; };
+		B228AD5321EF55C300595549 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228AD5221EF55C300595549 /* Model.swift */; };
 		B5698C7C077552BFEC67F74A /* Pods_MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A874BAFC9128BF0560910003 /* Pods_MVVMUITests.framework */; };
 		CE6A31E7881B4EC99A8DB621 /* Pods_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1CEDBE494E53EFF4E26072 /* Pods_MVVM.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +105,8 @@
 		B228AD4021EF50FF00595549 /* MVVM-RxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-RxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B228AD4421EF510000595549 /* MVVM_RxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_RxUITests.swift; sourceTree = "<group>"; };
 		B228AD4621EF510000595549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B228AD5021EF55B900595549 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B228AD5221EF55C300595549 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BA1CEDBE494E53EFF4E26072 /* Pods_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6A342CB245238248C5FCB2 /* Pods_MVVM_RxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEB245275F72538FFD5D387 /* Pods_MVVM_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +233,8 @@
 			children = (
 				B228AD2421EF50FE00595549 /* AppDelegate.swift */,
 				B228AD2621EF50FE00595549 /* ViewController.swift */,
+				B228AD5021EF55B900595549 /* ViewModel.swift */,
+				B228AD5221EF55C300595549 /* Model.swift */,
 				B228AD2821EF50FE00595549 /* Main.storyboard */,
 				B228AD2B21EF50FF00595549 /* Assets.xcassets */,
 				B228AD2D21EF50FF00595549 /* LaunchScreen.storyboard */,
@@ -705,7 +711,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B228AD2721EF50FE00595549 /* ViewController.swift in Sources */,
+				B228AD5121EF55B900595549 /* ViewModel.swift in Sources */,
 				B228AD2521EF50FE00595549 /* AppDelegate.swift in Sources */,
+				B228AD5321EF55C300595549 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
