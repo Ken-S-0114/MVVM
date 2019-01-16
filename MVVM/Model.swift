@@ -24,6 +24,7 @@ protocol ModelProtocol {
 }
 
 final class Model: ModelProtocol {
+
     func validate(idText: String?, passwordText: String?) -> Result<Void> {
         switch (idText, passwordText) {
         case (.none, .none):
@@ -45,4 +46,5 @@ final class Model: ModelProtocol {
             }
         }
     }
+    
 }
